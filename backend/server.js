@@ -22,6 +22,13 @@ dotenv.config();
 
 const app = express();
 
+// Required in production: Render/Railway/etc sit behind a reverse proxy,
+// so Express needs this to correctly detect HTTPS for secure cookies and
+// to get the real client IP for rate limiting.
+if (process.env.NODE_ENV === "production") {
+  app.set("trust proxy", 1);
+}
+
 // Core middleware
 app.use(helmet());
 app.use(
