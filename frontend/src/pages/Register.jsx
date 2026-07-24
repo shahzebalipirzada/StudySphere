@@ -6,6 +6,7 @@ import toast from "react-hot-toast";
 import { GraduationCap } from "lucide-react";
 import api from "../api/axios";
 import { useAuthStore } from "../store/authStore";
+import logo from "../assets/sqr-logo.png";
 
 export default function Register() {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -37,7 +38,7 @@ export default function Register() {
       >
         <div className="flex items-center gap-2 mb-8">
           <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white">
-            <GraduationCap size={20} />
+            <img src={logo} alt="" />
           </div>
           <div>
             <h1 className="font-semibold text-lg leading-tight">StudySphere</h1>
