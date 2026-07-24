@@ -293,23 +293,36 @@ CLIENT_URL=
 
 Screenshots will be added after the application is completed.
 
-| Dashboard | AI Tutor |
-|-----------|----------|
-| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/4ec21e0d-df8d-46c1-bad8-c9c8fdf8854b" />
+| Dashboard |
+|-----------| 
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/4ec21e0d-df8d-46c1-bad8-c9c8fdf8854b" /> | 
+
+| AI Tutor |
+|----------|
  | <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/dd832bed-4e71-4c42-9469-0accdd91c366" />
  |
 
-| Notes | Calculator Hub |
-|-------|----------------|
-| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/70a483af-d1c9-4ba6-bb74-a20360114c3e" />
+ 
+
+| Notes | 
+|-------|
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/70a483af-d1c9-4ba6-bb74-a20360114c3e" /> |
+
+| Calculator Hub |
+| ---------------- |
  | <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/4c432216-d05e-4000-b7f2-a5244c0e1b4c" />
 |
 
-| Youtube Hub | Smart Search |
-|-------------|--------------|
-| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/92b8b79f-5468-42f0-b374-ef57a9ecc213" />
+
+
+| Youtube Hub | 
+|-------------|
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/92b8b79f-5468-42f0-b374-ef57a9ecc213" /> |
+
+| Smart Search |
+|--------------|
  |<img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/f2d6fe14-e84e-4849-80d7-112389f52df9" />
-|
+
 
 
  
