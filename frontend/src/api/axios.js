@@ -1,8 +1,12 @@
 import axios from "axios";
 import { useAuthStore } from "../store/authStore";
 
+// In dev, VITE_API_URL is unset, so this falls back to "/api" which Vite's
+// proxy (vite.config.js) forwards to your local backend.
+// In production, set VITE_API_URL to your deployed backend's URL,
+// e.g. https://studysphere-api.onrender.com/api
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: import.meta.env.VITE_API_URL || "/api",
   withCredentials: true,
 });
 
