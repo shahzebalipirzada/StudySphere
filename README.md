@@ -50,13 +50,13 @@ StudySphere provides one centralized study hub that combines these essential too
 
 > **Backend API:** _Coming Soon_
 
-Replace these links after deployment.
+
 
 ---
 
 # 📸 Screenshots
 
-> Add screenshots after completing the project.
+
 
 ### Dashboard
 
@@ -84,7 +84,7 @@ Replace these links after deployment.
 
 # ✨ Implemented Features
 
-> Update this list as development progresses.
+
 
 ## Authentication
 
