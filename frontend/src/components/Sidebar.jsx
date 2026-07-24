@@ -34,7 +34,7 @@ export default function Sidebar({ open, onClose }) {
         <div className="flex items-center justify-between px-5 h-16 border-b border-slate-100 dark:border-slate-800">
           <div className="flex items-center gap-2">
             <div className="h-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-sm">
-              <img src="./public/logo-with-name.png" alt="StudySphere Logo" />
+              <img src="./assets/logo-with-name.png" alt="StudySphere Logo" />
             </div>
             {/* <span className="font-semibold text-lg">StudySphere</span> */}
           </div>
