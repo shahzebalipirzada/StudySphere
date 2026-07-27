@@ -1,131 +1,110 @@
 # 🎓 StudySphere
 
 <p align="center">
-  <b>Your Personal AI-Powered Study Hub</b><br>
-  An AI-assisted learning platform built with the MERN Stack to help students study smarter, stay organized, and learn more effectively.
+  <h1 align="center">StudySphere</h1>
+  <p align="center">
+    <strong>Your Personal AI-Powered Study Hub</strong>
+    <br>
+    Learn smarter. Stay organized. Everything you need to study in one place.
+  </p>
 </p>
 
 ---
 
 ## 📖 About the Project
 
-StudySphere is a full-stack web application designed to solve a common problem faced by students: using multiple disconnected apps for studying.
+StudySphere is a modern **AI-powered study hub** built with the **MERN Stack**.
 
-Students often switch between ChatGPT, YouTube, PDF readers, note-taking apps, calculators, and planners. This constant context switching wastes time and reduces productivity.
+Students constantly switch between AI chatbots, YouTube, note-taking apps, and calculators while studying. This breaks concentration and reduces productivity.
 
-StudySphere brings these tools together into a single personalized workspace where students can:
+StudySphere brings these essential tools together into one personalized platform where students can ask questions, organize notes, search educational videos, solve calculations, and continue learning without constantly changing applications.
 
-- Learn with AI
-- Organize notes
-- Solve problems
-- Plan study sessions
-- Track progress
-
-This project was developed as an individual MERN Stack portfolio project with AI integration.
+This project was developed as an individual full-stack MERN application with AI integration.
 
 ---
 
 # 🎯 Problem Statement
 
-Students rely on multiple platforms during study sessions:
+Students often use multiple applications during a single study session:
 
 - AI chatbots
-- Note-taking apps
-- PDF readers
 - YouTube
+- Notes applications
 - Calculators
-- Study planners
 
-Switching between these tools interrupts focus and makes studying less efficient.
+Switching between these tools interrupts focus and wastes valuable study time.
 
-## Solution
+---
 
-StudySphere provides one centralized study hub that combines these essential tools into a single seamless experience powered by AI.
+# 💡 Solution
+
+StudySphere provides a single AI-powered workspace where students can:
+
+- Learn with an intelligent AI tutor
+- Organize study notes
+- Search educational YouTube videos
+- Use built-in study calculators
+- Manage everything from one clean dashboard
 
 ---
 
 # 🌐 Live Demo
 
-> **Frontend:** _Coming Soon_
-
-> **Backend API:** _Coming Soon_
-
-
+visit: https://studysphere-web.vercel.app/
 
 ---
 
-# 📸 Screenshots
+# ✨ Features (Version 1)
 
-
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-### AI Tutor
-
-![AI Tutor](screenshots/ai-tutor.png)
-
----
-
-### Notes
-
-![Notes](screenshots/notes.png)
-
----
-
-### Study Planner
-
-![Planner](screenshots/planner.png)
-
----
-
-# ✨ Implemented Features
-
-
-
-## Authentication
+## 🔐 Secure Authentication
 
 - User Registration
-- Secure Login
+- User Login
 - JWT Authentication
 - Protected Routes
 - Password Hashing
-- Logout
+- Secure Logout
 
 ---
 
-## AI Tutor
+## 🤖 AI Tutor
 
-- AI-powered question answering
-- Personalized explanations
-- Step-by-step learning
+An AI assistant that helps students understand concepts instead of simply providing answers.
+
+Features include:
+
+- Step-by-step explanations
+- Homework assistance
+- Programming help
+- Mathematics explanations
 - Context-aware conversations
+- Markdown & code formatting
 
 ---
 
-## Smart Notes
+## 📝 Smart Notes
 
 - Create notes
 - Edit notes
 - Delete notes
-- Rich text editing
-- Auto save
+- Search notes
+- Clean and distraction-free interface
 
 ---
 
-## Study Planner
+## ▶️ YouTube Learning
 
-- Daily tasks
-- Study goals
-- Exam reminders
-- Pomodoro timer
+Search educational topics without leaving the application.
+
+- Topic search
+- Embedded YouTube videos
+- Learn directly inside the app
 
 ---
 
-## Calculator Hub
+## 🧮 Calculator Hub
+
+Built-in study tools including:
 
 - Scientific Calculator
 - GPA Calculator
@@ -133,54 +112,58 @@ StudySphere provides one centralized study hub that combines these essential too
 
 ---
 
-## Smart Search
+## 📊 Personalized Dashboard
 
-Search across:
+The dashboard provides quick access to everything the student needs.
 
-- Notes
-- AI Chats
-- PDFs
+- Welcome section
+- Recent notes
+- Quick actions
+- AI Tutor shortcut
+- Calculator Hub shortcut
+- YouTube Learning shortcut
 
 ---
 
-## Responsive UI
+## 🎨 Modern User Interface
 
-- Mobile Friendly
-- Dark Mode
-- Modern Dashboard
+- Responsive Design
+- Light & Dark Mode
 - Smooth Animations
+- Student-Friendly Layout
+- Minimal Illustrations
+- Modern Dashboard Design
 
 ---
 
 # 🤖 AI Feature
 
-StudySphere includes an AI Tutor that helps students understand concepts instead of simply providing answers.
+StudySphere includes an AI Tutor that focuses on helping students learn concepts rather than simply generating answers.
 
-The AI is instructed to:
+### AI Responsibilities
 
-- Teach instead of solving blindly.
-- Explain concepts according to the student's level.
-- Encourage critical thinking.
-- Break complex topics into simple steps.
-- Format responses using Markdown and mathematical notation where appropriate.
-- Recommend further learning resources when useful.
+- Explain concepts clearly
+- Adapt explanations to different learning levels
+- Break difficult topics into simple steps
+- Format responses using Markdown
+- Format programming code correctly
+- Encourage understanding instead of memorization
 
 ### Example System Prompt
 
-```
-You are an AI Tutor for StudySphere.
+```text
+You are StudySphere AI Tutor.
 
-Your role is to help students understand concepts rather than simply giving answers.
+Your job is to help students understand concepts instead of simply giving answers.
 
 Always:
 
-- Explain step by step.
+- Explain concepts step by step.
 - Adapt explanations to the student's level.
-- Encourage learning instead of memorization.
-- Ask follow-up questions when appropriate.
-- Format code properly.
-- Render mathematical expressions clearly.
-- Be friendly, supportive, and concise.
+- Encourage learning rather than memorization.
+- Format code professionally.
+- Use Markdown for better readability.
+- Recommend additional resources when helpful.
 ```
 
 ---
@@ -193,9 +176,9 @@ Always:
 - Vite
 - Tailwind CSS
 - React Router
+- Zustand
 - Axios
 - Framer Motion
-- Zustand
 
 ## Backend
 
@@ -211,41 +194,53 @@ Always:
 
 ## AI
 
-- OpenAI / Gemini / Groq *(depending on deployment)*
+- Groq API *(or your chosen AI provider)*
 
 ## Deployment
 
 - Vercel
 - Render
 - MongoDB Atlas
-- Cloudinary
 
 ---
 
-# 📁 Folder Structure
+# 📂 Project Structure
 
 ```
 StudySphere/
-│
+
 ├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── services/
+│   ├── store/
+│   ├── hooks/
+│   ├── assets/
+│   └── utils/
 │
 ├── backend/
+│   ├── src/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── config/
+│   └── utils/
 │
-├── screenshots/
-│
-├── README.md
-│
-└── .env.example
+└── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/StudySphere.git
+git clone https://github.com/shahzebalipirzada/StudySphere.git
 ```
 
 ```bash
@@ -274,11 +269,9 @@ npm run dev
 
 ---
 
-## Environment Variables
+# 🔑 Environment Variables
 
-Create a `.env` file inside the backend directory.
-
-Example:
+Create a `.env` file inside the backend folder.
 
 ```env
 PORT=
@@ -287,61 +280,89 @@ MONGO_URI=
 
 JWT_SECRET=
 
-OPENAI_API_KEY=
-
 GEMINI_API_KEY=
 
-CLOUDINARY_CLOUD_NAME=
-
-CLOUDINARY_API_KEY=
-
-CLOUDINARY_API_SECRET=
+CLIENT_URL=
 ```
 
-Never commit secrets to GitHub.
+> Never commit API keys or secrets to GitHub.
 
 ---
 
-# 🚀 Future Improvements
+# 📸 Screenshots
 
-- PDF AI Assistant
-- AI Flashcards
-- Quiz Generator
-- AI Study Analytics
-- OCR Notes
-- Voice AI Tutor
-- PWA Support
-- Mobile Application
-- AI Mind Maps
+Screenshots will be added after the application is completed.
+
+| Dashboard |
+|-----------| 
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/4ec21e0d-df8d-46c1-bad8-c9c8fdf8854b" /> | 
+
+| AI Tutor |
+|----------|
+ | <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/dd832bed-4e71-4c42-9469-0accdd91c366" />
+ |
+
+ 
+
+| Notes | 
+|-------|
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/70a483af-d1c9-4ba6-bb74-a20360114c3e" /> |
+
+| Calculator Hub |
+| ---------------- |
+ | <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/4c432216-d05e-4000-b7f2-a5244c0e1b4c" />
+|
+
+
+
+| Youtube Hub | 
+|-------------|
+| <img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/92b8b79f-5468-42f0-b374-ef57a9ecc213" /> |
+
+| Smart Search |
+|--------------|
+ |<img width="1916" height="1006" alt="image" src="https://github.com/user-attachments/assets/f2d6fe14-e84e-4849-80d7-112389f52df9" />
+
+
+
+ 
+---
+
+# 🗺️ Roadmap
+
+## Version 2
+
+- 📄 AI PDF Assistant
+- 🧠 AI Flashcards
+- 📝 AI Quiz Generator
+- 📈 Learning Analytics
+- 🎮 Gamification
+- 🧠 Personalized AI Memory
+- 💬 Motivational AI Messages
+
+## Version 3
+
+- 🎤 Voice AI Tutor
+- 🖋 OCR for Handwritten Notes
+- 🧠 AI Mind Maps
+- 📱 Mobile Application
+- 🌐 Progressive Web App (PWA)
+- 🔌 Browser Extension
 
 ---
 
-# 📊 Project Status
+# 🎓 Learning Outcomes
 
-🚧 Under Active Development
-
-Current focus:
-
-- Authentication
-- AI Tutor
-- Notes
-- Dashboard
-- Study Planner
-
----
-
-# 📚 Learning Outcomes
-
-This project strengthened my understanding of:
+This project strengthened my knowledge of:
 
 - MERN Stack Development
 - REST API Design
-- Authentication & Authorization
+- JWT Authentication
 - MongoDB Data Modeling
-- AI API Integration
+- AI Integration
 - State Management
-- Responsive UI/UX Design
-- Deployment & DevOps
+- Modern UI/UX Design
+- Full-Stack Deployment
 
 ---
 
@@ -351,14 +372,18 @@ This project strengthened my understanding of:
 
 Computer Science Student
 
-GitHub: https://github.com/YOUR_USERNAME
-
-LinkedIn: YOUR_LINKEDIN
-
-Portfolio: YOUR_PORTFOLIO
+- GitHub: https://github.com/shahzebalipirzada
+- Portfolio: https://shahzebali.vercel.app
+- LinkedIn: https://linkedin.com/in/shahzeb-ali-pirzada
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+<p align="center">
+⭐ If you like this project, consider giving it a star!
+</p>
